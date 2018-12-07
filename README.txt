@@ -22,3 +22,5 @@ types of rounds that consist of different types of zombies to the way the game p
 I use a random number generator to tell a round factory to used the round template in round creation.
 
 6. Thus I have a Zombie Game library that could be extended to be used in a text based game, gui game, or anything else.
+
+Note: Since this is a class library I did not see a reason to make an activity ddiagram or interaction diagram. That would depend how the library is integrated.
