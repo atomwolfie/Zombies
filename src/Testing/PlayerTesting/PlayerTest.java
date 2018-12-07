@@ -45,6 +45,9 @@ public class PlayerTest {
 		 	Player testPlayer = new Player();
 		 	testPlayer.setSpeed(10);
 		 	assertEquals(10, testPlayer.getSpeed(), 0);
+		 	
+		 	testPlayer.setSpeed(-10);
+		 	assertEquals(-10, testPlayer.getSpeed(), 0);
 	    }
 	 
 	 
@@ -61,6 +64,9 @@ public class PlayerTest {
 		 	Player testPlayer = new Player();
 		 	testPlayer.setpositionX(10);
 		 	assertEquals(10, testPlayer.getpositionX(), 0);
+		 	
+		 	testPlayer.setpositionX(-10);
+		 	assertEquals(-10, testPlayer.getpositionX(), 0);
 	    }
 	 
 	 @Test
@@ -76,6 +82,9 @@ public class PlayerTest {
 		 	Player testPlayer = new Player();
 		 	testPlayer.setpositionY(10);
 		 	assertEquals(10, testPlayer.getpositionY(), 0);
+		 	
+		 	testPlayer.setpositionY(-10);
+		 	assertEquals(-10, testPlayer.getpositionY(), 0);
 	    }
 	 
 	 @Test
@@ -91,6 +100,9 @@ public class PlayerTest {
 		 	Player testPlayer = new Player();
 		 	testPlayer.setAmtDamage(10);
 		 	assertEquals(10, testPlayer.getAmtDamage(), 0);
+		 	
+		 	testPlayer.setAmtDamage(-10);
+		 	assertEquals(-10, testPlayer.getAmtDamage(), 0);
 	    }
 	 
 	 @Test
@@ -106,6 +118,9 @@ public class PlayerTest {
 		 	Player testPlayer = new Player();
 		 	testPlayer.setAttackRange(10);
 		 	assertEquals(10, testPlayer.getAttackRange(), 0);
+		 	
+		 	testPlayer.setAttackRange(-10);
+		 	assertEquals(-10, testPlayer.getAttackRange(), 0);
 	    }
 	 
 	 @Test
@@ -121,6 +136,9 @@ public class PlayerTest {
 		 	Player testPlayer = new Player();
 		 	testPlayer.setAmtHealth(100);
 		 	assertEquals(100, testPlayer.getAmtHealth(), 0);
+		 	
+		 	testPlayer.setAmtHealth(-100);
+		 	assertEquals(-100, testPlayer.getAmtHealth(), 0);
 	    }
 	 
 	 @Test
@@ -136,5 +154,8 @@ public class PlayerTest {
 		 	Player testPlayer = new Player();
 		 	testPlayer.setAmtPoints(1000);
 		 	assertEquals(1000, testPlayer.getAmtPoints(), 0);
+		 	
+		 	testPlayer.setAmtPoints(-1000);
+		 	assertEquals(-1000, testPlayer.getAmtPoints(), 0);		 	
 	    }	 
 }

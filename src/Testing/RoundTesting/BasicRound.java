@@ -1,4 +1,4 @@
-package Rounds;
+package Testing.RoundTesting;
 
 import Zombies.ZombieFactory;
 
@@ -9,9 +9,10 @@ public class BasicRound extends Round{
 	boolean gameWantsFastZombie(){return false;}
 	boolean gameWantsGoliathZombie(){return false;}
 	
-	private ZombieFactory zombieFactory = new ZombieFactory();
+	public ZombieFactory zombieFactory = new ZombieFactory();
 	
 	@Override
+	public
 	void addBasicZombie(int roundNum) {
 		System.out.println("adding " + roundNum + " basic zombies to round...");
 		
@@ -21,16 +22,19 @@ public class BasicRound extends Round{
 	}
 	
 	@Override
+	public
 	void addExploderZombie(int roundNum) {
 		// do nothing
 		
 	}
 	@Override
+	public
 	void addFastZombie(int roundNum) {
 		// do nothing
 		
 	}
 	@Override
+	public
 	void addGoliathZombie(int roundNum) {
 		// do nothing
 		

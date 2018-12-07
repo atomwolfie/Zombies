@@ -12,6 +12,7 @@ public class Game {
 	}
 	
 	public boolean getGameDone(){return gameDone;}
+	
 	public void setGameDone(String done){
 		if(done.equals("done")){
 			gameDone = true;
